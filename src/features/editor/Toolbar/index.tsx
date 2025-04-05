@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import { Flex, Group, Select, Button } from "@mantine/core";
+import { Flex, Group, Select } from "@mantine/core";
 import styled from "styled-components";
 import toast from "react-hot-toast";
 import { AiOutlineFullscreen } from "react-icons/ai";
-import { FaBolt, FaGithub } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 import { type FileFormat, formats } from "../../../enums/file.enum";
 import { JSONCrackLogo } from "../../../layout/JsonCrackLogo";
 import useFile from "../../../store/useFile";
