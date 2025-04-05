@@ -70,7 +70,7 @@ export const Toolbar = () => {
         <FileMenu />
         <ViewMenu />
         <ToolsMenu />
-        <Button
+        {/* <Button
           autoContrast
           color="green"
           size="compact-sm"
@@ -80,7 +80,7 @@ export const Toolbar = () => {
           leftSection={<FaBolt />}
         >
           JSON Crack v2.0
-        </Button>
+        </Button> */}
       </Group>
       <Group gap="xs" justify="right" w="100%" style={{ flexWrap: "nowrap" }}>
         <Link href="https://github.com/AykutSarac/jsoncrack.com" rel="noopener" target="_blank">
